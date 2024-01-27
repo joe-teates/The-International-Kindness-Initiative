@@ -12,7 +12,7 @@ function plusSlides(n) {
 
 function showSlides(n) {
     slideIndex = n;
-    let slides = document.getElementsByClassName("mySlides");
+    let slides = document.getElementsByClassName("slideshow-images");
     let dots = document.getElementsByClassName("dot");
     console.log(slides.length);
   if (n >= slides.length) {slideIndex = 0}
