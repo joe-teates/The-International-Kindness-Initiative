@@ -68,6 +68,40 @@ body {
     margin-left: 4px;
     font-size: 15px;
   }
+  /* ################### who we are ################### */
+  .member-photo {
+    width: 290px;
+  }
+  /* ################### order bracelets ################### */
+
+  .title {
+    margin-left: 14px;
+    font-size: 24px;
+  }
+
+  .product-box {
+    margin-top: 30px;
+    width: 270px;
+    height: 115px;
+  }
+
+  .item-title {
+    font-size: 14px;
+  }
+
+  .product-amount-boxes {
+    height: 34px;
+    width: 190px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+  }
+
+  .order-button {
+    border-radius: 8px;
+    right: 6px;
+    bottom: -54px;
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 700px) {
@@ -128,10 +162,40 @@ body {
     margin-left: 5px;
     font-size: 17px;
   }
-    /* ################### who we are ################### */
-    .member-photo {
-      width: 475px;
-    }
+  /* ################### who we are ################### */
+  .member-photo {
+    width: 475px;
+  }
+  /* ################### order bracelets ################### */
+
+  .title {
+    margin-left: 16px;
+    font-size: 30px;
+  }
+
+  .product-box {
+    margin-top: 30px;
+    width: 450px;
+    height: 125px;
+  }
+
+  .item-title {
+    font-size: 16px;
+  }
+
+  .product-amount-boxes {
+    height: 40px;
+    width: 210px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+  }
+
+  .order-button {
+    border-radius: 8px;
+    right: 8px;
+    bottom: -58px;
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 700px) and (max-width: 1000px) {
@@ -192,10 +256,40 @@ body {
     margin-left: 5px;
     font-size: 20px;
   }
-    /* ################### who we are ################### */
-    .member-photo {
-      width: 650px;
-    }
+  /* ################### who we are ################### */
+  .member-photo {
+    width: 650px;
+  }
+  /* ################### order bracelets ################### */
+
+  .title {
+    margin-left: 20px;
+    font-size: 40px;
+  }
+
+  .product-box {
+    margin-top: 30px;
+    width: 650px;
+    height: 150px;
+  }
+
+  .item-title {
+    font-size: 18px;
+  }
+
+  .product-amount-boxes {
+    height: 45px;
+    width: 225px;
+    padding-left: 2px;
+    padding-bottom: 7px;
+  }
+
+  .order-button {
+    border-radius: 8px;
+    right: 10px;
+    bottom: -64px;
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -260,6 +354,36 @@ body {
   /* ################### who we are ################### */
   .member-photo {
     width: 950px;
+  }
+  /* ################### order bracelets ################### */
+
+  .title {
+    margin-left: 30px;
+    font-size: 50px;
+  }
+
+  .product-box {
+    margin-top: 30px;
+    width: 950px;
+    height: 180px;
+  }
+
+  .item-title {
+    font-size: 20px;
+  }
+
+  .product-amount-boxes {
+    height: 50px;
+    width: 250px;
+    padding-left: 3px;
+    padding-bottom: 8px;
+  }
+
+  .order-button {
+    border-radius: 8px;
+    right: 10px;
+    bottom: -67px;
+    font-size: 20px;
   }
 }
 
@@ -575,29 +699,28 @@ nav a:hover::before {
 
 /* ################### order bracelets ################### */
 
-.title {
+/* .title {
   margin-left: 30px;
   font-size: 50px;
-}
+} */
 
 .product-box {
   border-style: solid;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-left: auto;
   margin-right: auto;
-  width: 950px;
-  height: 180px;
+  /* width: 950px; */
+  /* height: 180px; */
   position: relative;
 }
 
 .item-title {
   width: 200px;
   margin: 5px;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 .product-photos {
   position: absolute;
-  /* background-color: #bbb; */
   width: 35%;
   height: 100%;
   top: 0;
@@ -620,17 +743,16 @@ nav a:hover::before {
 }
 
 .product-amount-boxes {
-  /* background-color: #717171; */
-  height: 50px;
-  width: 250px;
+  /* height: 50px;
+  width: 250px; */
   position: absolute;
   left: 0;
   bottom: 0;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding-left: 3px;
-  padding-bottom: 8px;
+  /* padding-left: 3px;
+  padding-bottom: 8px; */
 }
 
 .product-amount {
@@ -647,7 +769,7 @@ nav a:hover::before {
 }
 
 .order-button {
-  border-radius: 8px;
+  /* border-radius: 8px; */
   border-style: solid;
   height: fit-content;
   width: fit-content;
@@ -656,9 +778,9 @@ nav a:hover::before {
   justify-content: center;
   align-items: center;
   position: absolute;
-  right: 10px;
+  /* right: 10px;
   bottom: -67px;
-  font-size: 20px;
+  font-size: 20px; */
   cursor: pointer;
 }
 
@@ -667,6 +789,6 @@ nav a:hover::before {
   border-color: #717171;
 }
 
-.gimme-space{
+.gimme-space {
   margin-bottom: 200px;
 }
