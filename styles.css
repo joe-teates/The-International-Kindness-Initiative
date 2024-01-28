@@ -403,6 +403,16 @@ header::after {
   clear: both;
 }
 
+.foundation-name {
+  width: 200px;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
 nav {
   position: relative;
 }
