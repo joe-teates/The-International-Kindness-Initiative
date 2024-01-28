@@ -19,7 +19,7 @@ body {
     height: 195px;
   }
   .donate-button {
-    font-size: 18px;
+    font-size: 14px;
     width: 50px;
     aspect-ratio: 10/4;
   }
@@ -43,19 +43,19 @@ body {
     border-radius: 2px;
   }
   .examples {
-    margin: 27px;
+    margin: 20px;
   }
   .examples div {
-    font-size: 35px;
+    font-size: 30px;
   }
   .examples p {
-    font-size: 12px;
+    font-size: 10px;
   }
   .left {
-    transform: translate(-150px, 0);
+    transform: translate(-100px, 0);
   }
   .right {
-    transform: translate(150px, 0);
+    transform: translate(100px, 0);
   }
   .summary-box {
     height: 200px;
@@ -468,6 +468,7 @@ nav a:hover::before {
   background-color: #ff87c1;
   font-family: "Oswald", sans-serif;
   font-weight: 300;
+  color: black;
 }
 
 .donate-button:hover {
