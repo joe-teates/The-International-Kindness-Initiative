@@ -6,6 +6,95 @@ body {
     font-weight: 300;
 }
 
+
+
+
+
+@media (min-width: 300px) and ( max-width: 500px) {
+  nav a{
+    font-size: 12px;
+  }
+  .slideshow-container {
+    width: 350px;
+  }
+  .donate-button {
+    font-size: 22px;
+    width: 50px;
+    aspect-ratio: 10/4;
+  }
+}
+
+
+
+
+@media (min-width: 500px) and ( max-width: 700px) {
+  nav a{
+    font-size: 14px;
+  }
+  .slideshow-container {
+    width: 450px;
+  }
+  .donate-button {
+    font-size: 22px;
+    width: 70px;
+    aspect-ratio: 10/4;
+  }
+}
+
+
+
+
+@media (min-width: 700px) and ( max-width: 991px) {
+  nav a{
+    font-size: 16px;
+  }
+  .slideshow-container {
+    width: 600px;
+  }
+  .donate-button {
+    font-size: 22px;
+    width: 90px;
+    aspect-ratio: 10/4;
+  }
+
+}
+
+
+
+
+@media (min-width: 992px) {
+  nav a{
+    font-size: 17px;
+  }
+  .slideshow-container {
+    width: 900px;
+    height: 500px;
+  }
+  .donate-button {
+    font-size: 25px;
+    aspect-ratio: 10/4;
+    width: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 header {
     background-color: rgb(255, 62, 159);
     padding: 10px;
@@ -43,9 +132,7 @@ nav li{
 nav a{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    text-transform:none;
-    font-size: 17px;
-    
+    text-transform:none;    
 }
 .logo{
   text-decoration: none;
@@ -73,16 +160,17 @@ nav a:hover::before{
 }
 
 .donate-button {
-  /* position: absolute; */
-  /* right: 0px; */
   margin-left: auto;
-  border-style: solid;
+  border-style: none;
   border-radius: 5px;
   background-color: #ff87c1;
-  width: 100px;
-  height: 40px;
-  border-width: 3px;
-  border-color: #a3165a;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+
+.donate-button:hover{
+  background-color: rgba(255, 255, 255, 0.52);
+  cursor: pointer;
 }
 
 
@@ -105,8 +193,7 @@ nav a:hover::before{
 
 .slideshow-container {
   margin: auto;
-  width: 900px;
-  height: 500px;
+  aspect-ratio: 9/5;
   position: relative;
   border-style: solid;
 }
@@ -200,10 +287,89 @@ nav a:hover::before{
   background-image: url('./layer3.svg');
 }
 
+.how-to-help-button {
+  border-style: none;
+  border-radius: 5px;
+  background-color: #ff61b0;
+  width: 120px;
+  height: 40px;
+  border-width: 1px;
+  border-color: #424242;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+
+.how-to-help-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
 .examples-box {
   height: max-content;
   text-align: center;
   display: flex;
   align-items: center;
 justify-content: center;
+margin-bottom: 70px;
+margin-top: 60px;
+}
+
+.vertical-bar {
+  height: 150px;
+  width: 3px;
+  border-radius: 2px;
+  background-color: #000000;
+}
+
+.examples {
+  margin: 60px;
+}
+
+.examples div {
+  font-size: 60px;
+}
+.left {
+  position: absolute;
+  transform: translate(-250px,0);
+}
+
+.right {
+  position: absolute;
+  transform: translate(250px,0);
+}
+
+.layer4 {
+  background-image: url(./layer4.svg);
+}
+
+.summary-box {
+  height: 300px;
+  background-color: #ff67b0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.summary-topic {
+  font-size: 32px;
+  /* width: 300px; */
+  padding: 40px;
+  text-align: left;
+  /* background-color: #bbb; */
+  display: flex;
+  flex-direction: column;
+}
+
+.summary-topic a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #282828;
+  text-align: left;
+  font-size: 22px;
+}
+
+.summary-topic a:hover{
+  color: rgba(255, 255, 255, 0.556);
 }
