@@ -27,3 +27,20 @@ function showSlides(n) {
     dots.item(slideIndex).classList.add("selected");
 
 }
+
+function dropdown() {
+  let content = document.getElementById("dropdown-content");
+  let button = document.getElementById("dropdown-button");
+  if(content.classList.contains("hidden")){
+    content.classList.remove("hidden");
+    button.classList.toggle("dropdown-rotate");
+  }else{
+    content.classList.add("hidden");
+    button.classList.toggle("dropdown-rotate");
+  }
+}
+//.dropdown-content a:active {background-color: #ddd;}
+
+//.dropdown:active .dropdown-content {display: block;}
+
+//.dropdown:active .dropbtn {background-color: #3e8e41;}
