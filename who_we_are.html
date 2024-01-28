@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <script src="script.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
       rel="stylesheet"
     />
+
     <title>Document</title>
   </head>
   <body>
@@ -21,15 +23,15 @@
           <li><a class="pages" href="who_we_are.html">who we are</a></li>
           <li><a class="pages" href="how_to_help.html">how to help</a></li>
           <li>
-            <a class="pages" href="order_bracelets.html"
-              >order bracelets</a
-            >
+            <a class="pages" href="order_bracelets.html">order bracelets</a>
           </li>
         </ul>
       </nav>
-      
+
       <div class="dropdown">
-        <button class="dropbtn" onclick="dropdown()" id="dropdown-button"><img src="dropdown.png" alt=""></button>
+        <button class="dropbtn" onclick="dropdown()" id="dropdown-button">
+          <img src="dropdown.png" alt="" />
+        </button>
         <div class="dropdown-content hidden" id="dropdown-content">
           <a href="who_we_are.html">who we are</a>
           <a href="how_to_help.html">how to help</a>
@@ -39,74 +41,43 @@
 
       <button class="donate-button">Donate</button>
     </header>
-    <!-- <div class="seperator"> -->
+
     <div class="seperator layer1"></div>
-    <!-- </div> -->
-    <div class="slideshow-container">
-      <img class="slideshow-images" src="img1.jpg" title="Image One" />
-      <img class="slideshow-images hidden" src="img2.jpg" title="Image Two" />
-      <img class="slideshow-images hidden" src="img3.jpg" title="Image Three" />
-      <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      <!-- The dots/circles -->
-      <div class="dot-list">
-        <span class="dot selected" onclick="showSlides(0)"></span>
-        <span class="dot" onclick="showSlides(1)"></span>
-        <span class="dot" onclick="showSlides(2)"></span>
-      </div>
-    </div>
+
+    <div class="member-photo"><img src="team.jpg" alt="our team" /></div>
 
     <div class="seperator layer2"></div>
 
     <div class="caption-box">
-      What we do
+      Who we are
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-        excepturi! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        Error quia doloremque quidem sint corrupti sit perferendis quos veniam
-        cupiditate fuga?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+        quibusdam, unde optio accusantium minus earum dicta officia natus
+        architecto porro incidunt ducimus repellat a et? Aliquam, ducimus?
+        Provident illo iste totam, doloremque ducimus sapiente quas possimus
+        recusandae reprehenderit voluptatum beatae.
       </p>
-      <button class="how-to-help-button">how to help</button>
     </div>
 
     <div class="seperator layer3"></div>
 
-    <div class="examples-box">
-      <div class="examples left">
-        <div>500</div>
-        <p>Bracelets given out</p>
-      </div>
-      <div class="vertical-bar"></div>
-      <div class="examples">
-        <div>$1000</div>
-        <p>Donated</p>
-      </div>
-      <div class="vertical-bar"></div>
-      <div class="examples right">
-        <div>25</div>
-        <p>talks hosted</p>
-      </div>
-    </div>
-
     <div class="seperator layer4"></div>
     <div class="summary-box">
-      <div class="summary-topic">about us
+      <div class="summary-topic">
+        about us
         <a href="who_we_are.html">our team</a>
         <a href="where_donations_go.html">where donations go</a>
         <a href="mailto:rcblum3@gmail.com">contact us</a>
       </div>
       <div class="vertical-bar"></div>
 
-      <div class="summary-topic">get involved
+      <div class="summary-topic">
+        get involved
         <a href="">how it works</a>
         <a href="how_to_help.html">how to help</a>
         <a href="order_bracelets.html">order bracelets</a>
         <a href="">donate</a>
       </div>
-
-
     </div>
-
   </body>
 </html>

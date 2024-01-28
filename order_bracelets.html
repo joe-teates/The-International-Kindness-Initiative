@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1><a class="logo" href="index.html">KIC + MAD</a></h1>
+      <nav>
+        <ul>
+          <li><a class="pages" href="who_we_are.html">who we are</a></li>
+          <li><a class="pages" href="how_to_help.html">how to help</a></li>
+          <li>
+            <a class="pages" href="order_bracelets.html">order bracelets</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="dropdown">
+        <button class="dropbtn" onclick="dropdown()" id="dropdown-button">
+          <img src="dropdown.png" alt="" />
+        </button>
+        <div class="dropdown-content hidden" id="dropdown-content">
+          <a href="who_we_are.html">who we are</a>
+          <a href="how_to_help.html">how to help</a>
+          <a href="order_bracelets.html">order bracelets</a>
+        </div>
+      </div>
+
+      <button class="donate-button">Donate</button>
+    </header>
+
+    <div class="seperator layer1"></div>
+
+    <div class="title">Order Bracelets</div>
+
+    <!-- ################### PINK ################### -->
+    <div class="product-box">
+      <div class="item-title">Original - Hot Pink</div>
+      <div class="product-photos">
+        <img class="left-img" src="bracelet1.jpg" alt="" />
+        <img class="right-img" src="bracelet2.jpg" alt="" />
+      </div>
+      <div class="product-amount-boxes">
+        <div
+          id="pink10"
+          class="product-amount"
+          onclick="selectBracelet('pink', 10)"
+        >
+          x10
+        </div>
+        <div
+          id="pink20"
+          class="product-amount"
+          onclick="selectBracelet('pink', 20)"
+        >
+          x20
+        </div>
+        <div
+          id="pink30"
+          class="product-amount"
+          onclick="selectBracelet('pink', 30)"
+        >
+          x30
+        </div>
+      </div>
+    </div>
+
+    <!-- ################### RED ################### -->
+    <div class="product-box">
+      <div class="item-title">Red</div>
+      <div class="product-photos">
+        <img class="left-img" src="bracelet1.jpg" alt="" />
+        <img class="right-img" src="bracelet2.jpg" alt="" />
+      </div>
+      <div class="product-amount-boxes">
+        <div
+          id="red10"
+          class="product-amount"
+          onclick="selectBracelet('red', 10)"
+        >
+          x10
+        </div>
+        <div
+          id="red20"
+          class="product-amount"
+          onclick="selectBracelet('red', 20)"
+        >
+          x20
+        </div>
+        <div
+          id="red30"
+          class="product-amount"
+          onclick="selectBracelet('red', 30)"
+        >
+          x30
+        </div>
+      </div>
+    </div>
+
+    <!-- ################### PURPLE ################### -->
+    <div class="product-box">
+      <div class="item-title">Purple</div>
+      <div class="product-photos">
+        <img class="left-img" src="bracelet1.jpg" alt="" />
+        <img class="right-img" src="bracelet2.jpg" alt="" />
+      </div>
+      <div class="product-amount-boxes">
+        <div
+          id="purple10"
+          class="product-amount"
+          onclick="selectBracelet('purple', 10)"
+        >
+          x10
+        </div>
+        <div
+          id="purple20"
+          class="product-amount"
+          onclick="selectBracelet('purple', 20)"
+        >
+          x20
+        </div>
+        <div
+          id="purple30"
+          class="product-amount"
+          onclick="selectBracelet('purple', 30)"
+        >
+          x30
+        </div>
+      </div>
+      <div id="order-button" class="order-button" onclick="printAllBracelets()">
+        $0.00 - Place Order
+      </div>
+    </div>
+
+    <div class="gimme-space"></div>
+
+    <div class="seperator layer4"></div>
+    <div class="summary-box">
+      <div class="summary-topic">
+        about us
+        <a href="who_we_are.html">our team</a>
+        <a href="where_donations_go.html">where donations go</a>
+        <a href="mailto:rcblum3@gmail.com">contact us</a>
+      </div>
+      <div class="vertical-bar"></div>
+
+      <div class="summary-topic">
+        get involved
+        <a href="">how it works</a>
+        <a href="how_to_help.html">how to help</a>
+        <a href="order_bracelets.html">order bracelets</a>
+        <a href="">donate</a>
+      </div>
+    </div>
+  </body>
+</html>
