@@ -478,7 +478,7 @@ nav a:hover::before {
 }
 
 .layer1 {
-  background-image: url("./layer1.svg");
+  background-image: url("./resources/layer1.svg");
 }
 
 .slideshow-container {
@@ -558,7 +558,7 @@ nav a:hover::before {
 }
 
 .layer2 {
-  background-image: url("./layer2.svg");
+  background-image: url("./resources/layer2.svg");
 }
 
 .caption-box {
@@ -571,7 +571,7 @@ nav a:hover::before {
 }
 
 .layer3 {
-  background-image: url("./layer3.svg");
+  background-image: url("./resources/layer3.svg");
 }
 
 .how-to-help-button {
@@ -613,7 +613,7 @@ nav a:hover::before {
 }
 
 .layer4 {
-  background-image: url(./layer4.svg);
+  background-image: url("./resources/layer4.svg");
 }
 
 .summary-box {
