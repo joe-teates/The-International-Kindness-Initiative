@@ -592,7 +592,8 @@ nav a:hover::before {
   border-style: none;
   border-radius: 5px;
   background-color: #ff61b0;
-  width: 120px;
+  padding-left: 10px;
+  padding-right: 10px;
   height: 40px;
   border-width: 1px;
   border-color: #424242;
